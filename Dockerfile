@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:2.1.3 AS build-env
+FROM microsoft/aspnetcore:2.1 AS build-env
 
 # replace shell with bash so we can source files
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
